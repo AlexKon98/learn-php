@@ -32,7 +32,7 @@ class ToDoListStorage {
   }
 
   public function printToDoList() {
-    foreach ($this->tasks as $key=>$task) {
+    foreach ($this->tasks as $key => $task) {
       echo 'Task №' . $key . PHP_EOL;
       echo 'Title: ' . $task['title'] . PHP_EOL;
       echo 'Status: ' . $task['done'] ? 'done' . PHP_EOL : 'in progress' . PHP_EOL;
